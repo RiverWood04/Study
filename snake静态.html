@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport"/>
+<script src="javascript/jquery-2.1.1.min.js"></script>
+<link href="css/snake_css.css" rel="stylesheet">
+<script src="javascript/snake_js.js"></script>
+<title>贪吃蛇</title>
+</head>
+
+<body>
+	<canvas id="main_window" width="400" height="400" tabindex="0">
+	</canvas>
+    <div id="panel">
+    	<div id="panel-content">
+        	<ul id="scoring">
+                <li id="sng">分数：0</li>
+                <li id="snt">总长：9</li>
+            </ul>
+            <span id="gameover" class="attention right">撞到了!<button id="reset" type="button">再试一次</button></span> 
+            <form id="highscore_sub" class="right" action="#">
+            	<input id="score" type="hidden" name="score" value="" />
+                <input id="username" type="text" name="username" placeholder="请输入姓名拼音缩写" />
+                <input id="send" class="attention" type="button" value="提交高分！" />
+            </form> 
+        </div>
+    </div>
+    <div id="color_disk">
+    	<form>
+        	<button type="button" class="color black" value="#000000"></button>
+            <button type="button" class="color brown" value="#CC6600"></button>
+        	<button type="button" class="color red" value="#FF0000"></button>
+            <button type="button" class="color blue" value="#0000FF"></button>
+            <button type="button" class="color green" value="#00CC33"></button>
+            <button type="button" class="color yellow" value="#FFFF00"></button>
+            <button type="button" class="color purple" value="#9933CC"></button>
+            <button type="button" class="color orange" value="#FF9900"></button>
+            <button type="button" class="color white" value="#FFFFFF"></button>
+            <span id="current_color">当前颜色<div></div></span>
+            <p id="error_messege"></p>
+        </form>
+    </div>
+	<div id="resText" >
+ 
+	</div>
+</body>
+</html>
