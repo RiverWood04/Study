@@ -1,0 +1,48 @@
+/*banner区js背景替换样式*/
+
+/*全站导航*/
+.quan-nav-image{
+	background:url(../zhuanti-images/daohang-bg2.png) no-repeat center !important;
+	border-left:#ececec 1px solid !important;
+	border-right:#ececec 1px solid;
+	color:#e03800;
+}
+/*R星*/
+.gta4{
+	background-image:url(../zhuanti-images/gta4-HOT.png) !important;
+}
+.gtasa{
+	background-image:url(../zhuanti-images/gtasa-HOT.png) !important;
+}
+.gtavc{
+	background-image:url(../zhuanti-images/gtavc-HOT.png) !important;
+}
+/*主导航*/
+.main-nav-image1{
+	background-image:url(../zhuanti-images/nav_09.gif) !important;
+}
+.main-nav-image2{
+	background-image:url(../zhuanti-images/nav_10.gif) !important;
+}
+.main-nav-image3{
+	background-image:url(../zhuanti-images/nav_11.gif) !important;
+}
+.main-nav-image4{
+	background-image:url(../zhuanti-images/nav_12.gif) !important;
+}
+.main-nav-image5{
+	background-image:url(../zhuanti-images/nav_13.gif) !important;
+}
+.main-nav-image7{
+	background-image:url(../zhuanti-images/nav_15.gif) !important;
+}
+.main-nav-image8{
+	background-image:url(../zhuanti-images/nav_16.gif) !important;
+}
+/*投稿和下载按钮*/
+.tougao-sp{
+	background-image:url(../zhuanti-images/gd_03.gif) !important;
+}
+.dl-sp{
+	background-image:url(../zhuanti-images/gd_04.gif) !important;
+}

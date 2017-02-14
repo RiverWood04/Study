@@ -1,0 +1,135 @@
+/*资料区*/
+#news-file{
+	width:589px;
+	height:206px;
+	position:absolute;
+	right:15px;
+	top:310px;
+	overflow:hidden;
+}
+#news-file-inner-four,#news-file-inner-two,#news-file-inner-three{
+	margin-top:2px;
+}
+#pingfen{
+	display:inline-block;
+	color:#ffffff;
+	font-family:STSong;
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	width:25px;
+	height:17px;
+	line-height:18px;
+	background:url(../zhuanti-images/pf.gif) center no-repeat;
+}
+#news-file li{
+	list-style:none;
+	float:left;
+	display:inline-block;
+}
+.news-file-title{
+	display:inline-block;
+	width:105px;
+	height:50px;
+	line-height:50px;
+	text-indent:32px;
+	font-weight:bold;
+}
+#news-file-inner-one{
+	height:50px;
+}
+#news-file-title-bg1{
+	background:#ffd2a6 url(../zhuanti-images/ttt_02.gif) left no-repeat;
+}
+#news-file-title-bg2{
+	background:#ffd2a6 url(../zhuanti-images/ttt_04.gif) left no-repeat;
+}
+#news-file-title-bg3{
+	background:#ffd2a6 url(../zhuanti-images/ttt_06.gif) left no-repeat;
+}
+#news-file-title-bg4{
+	background:#ffd2a6 url(../zhuanti-images/ttt_08.gif) left no-repeat;
+}
+.news-file-table1,.news-file-table2{
+	width:461px;
+	height:25px;
+	background:#fbead9;
+	padding-left:23px;
+}
+.file-sp-bg{
+	background:#fbead9 url(../zhuanti-images/taglike.gif) left top no-repeat !important;
+}
+.news-file-table1 li,.news-file-table2 li{
+	height:25px;
+	line-height:23px;
+	padding:0px 10px 0px 12px;
+	background:url(../zhuanti-images/news-line.png) left no-repeat;
+}
+/*资料表格分行*/
+.news-file-table1 a,.news-file-table2 a{
+	font-family:STSong;
+	font-size:14px;
+}
+.news-file-sp{
+	padding-left:0px !important;
+	background:none !important;
+}
+/*热门推荐*/
+#news-tuijian{
+	width:589px;
+	height:244px;
+	position:absolute;
+	right:15px;
+	top:532px;
+	overflow:hidden;
+}
+#news-tuijian span:hover{
+	color:#ffab3f;
+}
+#news-tuijian-titlebox{
+	width:589px;
+	height:24px;
+	border-bottom:#e4dccc solid 1px;
+}
+#tuijian-pic,#tuijian-pic2{
+	width:588px;
+	height:110px;
+}
+#tuijian-pic{
+	margin-top:10px;
+}
+#tuijian-pic li,#tuijian-pic2 li{
+	list-style:none;
+	float:float;
+	display:inline-block;
+}
+#tuijian-pic a,#tuijian-pic2 a{
+	display:inline-block;
+	width:180px;
+	height:100px;
+	margin-left:16px;
+}
+#tuijian-pic img,#tuijian-pic2 img{
+	z-index:0;
+	width:180px;
+	height:100px;
+	overflow:hidden;
+	display:inline-block;
+}
+#tuijian-pic span,#tuijian-pic2 span{
+	display:inline-block;
+	z-index:1;
+	position:relative;
+	width:180px;
+	height:100px;
+	line-height:175px;
+	top:-100px;
+	text-align:center;
+	color:#f0f0f0;
+	font-size:14px;
+	font-family:STSong;
+	background:url(../zhuanti-images/yy.png);
+}
+.tuijian-pic-sp{
+	margin-left:0px !important;
+}

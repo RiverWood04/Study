@@ -1,0 +1,22 @@
+$(document).ready(function(){
+	/*主新闻table*/
+	$("#main-news-table > ul > li").mouseover(function(){
+		$(this).addClass("tab-sp");
+		$(this).siblings().removeClass("tab-sp");
+		if($("#news-tab1").hasClass("tab-sp")){
+			$("#main-news-box1").show();
+			$("#zuixingonglue").hide();
+			$("#ziyuanxiazai").hide();
+		}
+		if($("#news-tab2").hasClass("tab-sp")){
+			$("#zuixingonglue").show();
+			$("#ziyuanxiazai").hide();
+			$("#main-news-box1").hide();
+		}
+		if($("#news-tab3").hasClass("tab-sp")){
+			$("#ziyuanxiazai").show();
+			$("#zuixingonglue").hide();
+			$("#main-news-box1").hide();
+		}
+	})
+})

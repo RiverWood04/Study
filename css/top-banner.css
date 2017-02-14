@@ -1,0 +1,318 @@
+/*顶部导航*/
+#top-bar{		
+	width:100%;
+	height:40px;
+	background-color:#f6f6f6;
+}
+#top-bar-nav{
+	width:1004px;
+	height:40px;
+	margin:0px auto;
+	position:relative;
+}
+#main-link{		
+	line-height:40px;
+	padding-left:25px;
+	margin-left:12px;
+	background:url(../zhuanti-images/main-icon.png) left no-repeat;
+	display:inline-block;
+	width:90px;
+}
+#top-nav-box{
+	display:inline-block;
+	width:373px;
+	height:40px;
+	position:absolute;
+	right:-50px;
+}
+#top-nav-box li{
+	list-style:none;
+	float:left;
+	margin-right:13px;
+	white-space: nowrap;
+}
+#top-nav-box a{
+	display:inline-block;
+	line-height:40px;
+}
+.top-sp a{		/*手机客户端导航*/
+	color:#e03800;
+}
+#top-sp2{		/*全站导航*/
+	display:inline-block;
+	width:80px;
+	background:url(../zhuanti-images/nav_qz1_06.gif) right no-repeat;
+}
+#top-sp2 a{
+	display:inline-block;
+	width:77px;
+	height:40px;
+	padding-left:15px;
+	border-left:1px solid #f6f6f6;
+	background:url(../zhuanti-images/nav_sp2_bg.png) left no-repeat;
+}
+/*全站导航图*/
+#quan-nav{
+	height:188px;
+	width:595px;
+	display:none;
+	background:#FFFFFF;
+	position:absolute;
+	right:8px;
+	z-index:1;
+}
+#quan-nav div{
+	float:left;
+}
+.nav-divison{
+	height:158px;
+	width:196px;
+	border-right:1px solid #ececec;
+	overflow:hidden;
+	margin-top:15px;
+}
+.nav-divison ul{
+	list-style:none;
+	float:left;
+	margin-top:10px;
+	width:65px;
+}
+.left{
+	margin-left:25px;
+}
+.right{
+	margin-left:15px;
+}
+.nav-divison-title{
+	display:block;
+	margin-left:23px;
+	width:76px;
+	font-size:13px;
+	font-weight:900;
+	background:url(../zhuanti-images/nav_qz1_10.gif) right no-repeat;
+}
+#quan-nav li{
+	margin-bottom:11px;
+	font-size:12px;
+}
+.border-adjust{
+	border-right:none;
+}
+/*banner图*/
+#top-banner{
+	width:1000px;
+	height:410px;
+	margin:0px auto;
+	background:url(../zhuanti-images/topbg.jpg) no-repeat;
+	background-size:100%;
+	overflow:visible;
+}
+/*右上五角星导航*/
+#r-star{
+	width:305px;
+	height:35px;
+	margin-left:50%;
+	position:relative;
+	right:-373px;
+	top:10px;
+	z-index:0;
+}
+#r-star li{
+	list-style:none;
+	float:left;
+	margin-right:4px;
+}
+#r-star a{
+	display:inline-block;
+	width:37px;
+	height:33px;
+}
+#r-star-4{		/*右上五角星背景*/
+	background:url(../zhuanti-images/gta4.png) no-repeat;
+}
+#r-star-sa{
+	background:url(../zhuanti-images/gtasa.png) no-repeat;
+}
+#r-star-vc{
+	background:url(../zhuanti-images/gtavc.png) no-repeat;
+}
+/*右下下载区域*/
+#main-dl-box{
+	width:392px;
+	height:50px;
+	position:relative;
+	top:254px;
+	left:783px;
+	font-size:0px;
+}
+#dlbg{
+	position:relative;
+	right:4px;
+}
+#tougao{
+	display:inline-block;
+	width:28px;
+	height:30px;
+	position:relative;
+	left:37px;
+	top:10px;
+	color:#c3aea3;
+	line-height:16px;
+}
+#tougao-bg{
+	display:inline-block;
+	height:50px;
+	width:70px;
+	background:url(../zhuanti-images/gd_01.gif) no-repeat;
+}
+#dl{
+	font-family:heiti;
+	font-size:20px;
+	font-weight:bold;
+	color:#ffc580;
+	position:relative;
+	left:38px;
+	top:9px;
+}
+#dl-bg{
+	display:inline-block;
+	width:129px;
+	height:50px;
+	background:url(../zhuanti-images/gd_02.gif) no-repeat;
+	margin-left:2px;
+}
+#main-dl-ul li{
+	display:inline-block;
+	float:left;
+}
+/*主导航区*/
+#main-nav-box{
+	height:26px;
+	width:660px;
+	position:absolute;
+	top:369px;
+	padding-left:15px;
+}
+#main-nav-box a{
+	margin-right:11px;
+	display:inline-block;
+	width:76px;
+	height:23px;
+}
+#main-nav-bg1{
+	background:url(../zhuanti-images/nav_01.gif) no-repeat;
+}
+#main-nav-bg2{
+	background:url(../zhuanti-images/nav_02.gif) no-repeat;
+}
+#main-nav-bg3{
+	background:url(../zhuanti-images/nav_03.gif) no-repeat;
+}
+#main-nav-bg4{
+	background:url(../zhuanti-images/nav_04.gif) no-repeat;
+	margin-left:1px;
+}
+#main-nav-bg5{
+	background:url(../zhuanti-images/nav_05.gif) no-repeat;
+	margin-left:-1px;
+}
+#main-nav-bg7{
+	background:url(../zhuanti-images/nav_07.gif) no-repeat;
+	display:inline-block;
+	width:50px !important;
+	margin-left:1px;
+}
+#main-nav-bg8{
+	background:url(../zhuanti-images/nav_08.gif) no-repeat;
+	display:inline-block;
+	width:40px !important;
+	margin-left:1px;
+}
+/*底部搜索框*/
+#serch-box{
+	width:297px;
+	height:32px;
+	background:url(../zhuanti-images/sc_bg.gif) left no-repeat;
+	margin-left:50%;
+	position:relative;
+	right:-220px;
+	top:279px;
+}
+#serch-option{
+	line-height:32px;
+	color:#ffe4ba;
+	font-size:14px;
+	font-family:heiti;
+	display:inline-block;
+	width:45px;
+	margin-left:9px;
+	background:url(../zhuanti-images/arrow_01.gif) right no-repeat;
+}
+#serch-form{
+	display:inline-block;
+}
+#serch-text{
+	background:#7c2f05;
+	border:none;
+	color:#b88f85;
+	font-size:14px;
+	font-family:heiti;
+	position:relative;
+	display:inline;
+	left:3px;
+}
+#serch-submit{
+	display:inline-block;
+	width:23px;
+	background:url(../zhuanti-images/sc_01.gif) right no-repeat;
+	border:none;
+	cursor:pointer;
+	position:relative;
+	left:-11px;
+	top:1px;
+}
+/*搜索框切换*/
+#switch{
+	width:58px;
+	height:52px;
+	background-color:#7e3107;
+	position:absolute;
+	right:237px;
+	top:31px;
+	border:1px #602408 solid;
+	z-index:2;
+	display:none;
+}
+#switch li{
+	list-style:none;
+	color:#ffe4ba;
+	font-size:14px;
+	font-family:heiti;
+	height:20px;
+	line-height:20px;
+	margin:4px 0px 0px 9px;
+	cursor:pointer;
+}
+.switch-sp{
+	background:#954419 !important;
+	color:#FFFFFF;
+}
+
+/*-------------------top-banner media query-------------------*/
+@media screen and (max-width: 768px){
+	#top-bar-nav{
+		width:100%;
+	}
+	#top-banner{
+		width:100%;		
+	}
+	#r-star{
+		display:none;
+	}
+	#serch-box{
+		display:none;
+	}
+	#main-dl-box{
+		display:none;
+	}
+}

@@ -1,0 +1,172 @@
+body{
+	width:100%;
+	height:auto;
+	background:#666666;
+	position:fixed;
+}
+/*canvas主窗口*/
+#main_window{
+	display:block;
+	margin:0px auto;
+	margin-top:30px;
+	border:1px solid #000000;
+	background:#CCCCCC;
+}
+/*canvas下方面板*/
+#panel{
+	border:1px solid #000000;
+	border-top:none;
+	width:400px;
+	height:120px;
+	margin:0px auto;
+	background:#FFFFFF;
+}
+
+/*计分区域*/
+#panel-content{
+	display:inline-block;
+	width:400px;
+	height:120px;
+	position:relative;
+}
+#scoring li{
+	display:inherit;
+	list-style:none;
+	margin-bottom:20px;
+}
+#scoring{
+	float:left;
+	display:inherit;
+	width:120px;
+	margin:0;
+	position:absolute;
+	top:25px;
+}
+/*高分提交表单*/
+.right{
+	position:absolute;
+	right:15px;
+	top:25px;
+}
+#highscore_sub{
+	top:60px;
+	display:none;
+}
+#username{
+	width:120px;
+}
+#send{
+	width:90px;
+}
+#reset{
+	display:inline-block;
+	width:90px;
+}	
+#gameover{
+	display:none;
+}
+.attention{
+	font-size:16px;
+	color:#FF0000;
+	font-weight:bolder;
+}
+/*游戏操作提示*/
+
+/*主窗体左侧高分榜*/
+#resText{
+	width:125px;
+	height:400px;
+	background:#FFFFFF;
+	margin:-402px auto 0 auto;
+	position:relative;
+	right:264px;
+	font-weight:bolder;
+	border:1px #000000 solid;
+	border-right:none;
+}
+#score_tab{
+	padding-top:6px;
+}
+#score_tab li{
+	margin-bottom:10px;
+	font-size:13px;
+}
+#score_title{
+	width:100%;
+	height:auto;
+	text-align:center;
+	font-size:21px;
+	display:inline-block;
+	margin-top:15px;
+}
+/*主窗体右侧调色板*/
+#color_disk{
+	width:125px;
+	height:390px;
+	border:1px solid #000000;
+	border-left:none;
+	margin:-523px auto 0 auto;
+	padding-top:10px;
+	background:#FFFFFF;
+	position:relative;
+	left:264px;
+}
+.color{
+	width:25px;
+	height:25px;
+	margin:0 5px 10px 6px;
+}
+.black{
+	background:#000000;
+	color:#000000;
+}
+.brown{
+	background:#CC6600;
+	color:#CC6600;
+}
+.red{
+	background:#FF0000;
+	color:#FF0000;
+}
+.blue{
+	background:#0000FF;
+	color:#0000FF;
+}
+.green{
+	background:#00CC33;
+	color:#00CC33;
+}
+.yellow{
+	background:#FFFF00;
+	color:#FFFF00;
+}
+.purple{
+	background:#9933CC;
+	color:#9933CC;
+}
+.orange{
+	background:#FF9900;
+	color:#FF9900;
+}
+.white{
+	background:#FFFFFF;
+	color:#FFFFFF;
+}
+#current_color{
+	margin-left:15px;
+}
+#current_color div{
+	display:inline-block;
+	width:25px;
+	height:25px;
+	margin:5px 0 0 5px;
+	border:1px solid #000000;
+	background:#000000;
+}
+#error_messege{
+	padding:10px 5px;
+	font-weight:bolder;
+	color: #FF0000;
+}
+
+

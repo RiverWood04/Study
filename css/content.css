@@ -1,0 +1,73 @@
+/*--------------------------------------------------内容2~4页------------------------------------------------------*/
+/*第二页*/
+.text-position{	/*内容文字位置*/
+	position:absolute;
+	top:20%;
+}
+@media screen and (max-width: 767px){  /*中型移动端屏幕文字调整*/
+    .text-adjust{
+		font-size:14px;
+	}
+}
+@media screen and (max-width: 374px){  /*小屏幕文字调整*/
+    .text-adjust{
+		font-size:12px;
+	}
+}
+
+@media screen and (max-width: 767px){  /*移动端文字位置调整*/
+	.text-position{
+		top:15%;
+	}
+}
+@media screen and (min-width: 1440px){  /*显示器内容间距调整*/
+    .text-adjust{
+		top:25px;
+		font-size:20px;
+	}
+	.cover-text{
+		font-size:19px;
+	}
+}
+.we-icon{
+	display:block;
+	z-index:1;
+}
+.title-adjust{		/*内容页面标题*/
+	margin-left:-50px;
+	position:relative;
+	left:10%;
+	opacity:0;
+	alpha:0;
+}
+.text-adjust{	/*内容页面文字*/
+	margin-top:5%;
+	font-weight:800;
+}
+@media screen and (width: 768px){  /*text-adjust平板调整*/
+	.text-adjust{	
+		margin-top:15%;
+	}
+}
+
+/*第三页 作品*/
+#p3bg section{
+	height:30%;
+	text-align:center;
+}
+.tech-pic{
+	width:300px;
+	height:200px;
+}
+sk-text{
+	height:100%;
+}
+@media screen and (max-width: 767px){  
+	.tech-pic{
+		width:240px;
+		height:160px;
+	}
+}
+.sk-text{
+	text-align:center;
+}
